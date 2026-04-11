@@ -10,7 +10,7 @@ Exercise submissions for the University of Helsinki Full Stack Open course.
 ## Progress
 
 - [x] Part 0: Fundamentals of Web apps
-- [ ] Part 1: Introduction to React
+- [x] Part 1: Introduction to React
 - [ ] Part 2: Communicating with server
 - [ ] Part 3: Programming a server with NodeJS and Express
 - [ ] Part 4: Testing Express servers, user administration
@@ -33,6 +33,10 @@ part0/
   0.4-new-note-diagram.svg
   0.5-single-page-app-diagram.svg
   0.6-new-note-in-single-page-app-diagram.svg
+part1/
+  anecdotes/
+  courseinfo/
+  unicafe/
 ```
 
 More parts will be added as separate directories as the course progresses.
