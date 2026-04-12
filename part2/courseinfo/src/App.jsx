@@ -19,13 +19,9 @@ const Part = ({ part }) => {
 }
 
 const Total = ({ parts }) => {
-  let total = 0
-  parts.forEach(part => {
-    total += part.exercises
-  })
   return (
     <strong>
-      total of {total} exercises
+      total of {parts.reduce((acc, part) => acc + part.exercises, 0)} exercises
     </strong>
   )
 }
